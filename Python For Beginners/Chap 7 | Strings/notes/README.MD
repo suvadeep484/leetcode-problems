@@ -13,7 +13,7 @@
 
 - We can access individual characters from a string using String indexing 
 
-  ```py 
+  ```python
   my_str = "Hello"
   print(my_str[0]) # Output ➡️ H
   ```
@@ -48,7 +48,7 @@ for char in my_string:
 
 - When we use the `+` operator with two strings Python joins them together to create a new string 
 
-  ```py  
+  ```python
   str ="Hello"
   str2 = "World!"
   print(str + str2) # Output : Hello , world
