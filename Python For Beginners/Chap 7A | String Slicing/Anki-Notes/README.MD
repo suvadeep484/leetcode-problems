@@ -35,3 +35,26 @@ Copy / return the whole string.
 **Solution**:
 
 Reverses the string.
+
+**Q**: Are Strings mutable or immutable in Python ? 
+
+**Solution**:
+
+Strings are immutable in python which means they cannot be changed after they are created 
+
+**Q**: Are we creating a new string when we use the slice operator ? 
+
+**Solution**: 
+
+Whenever we slice a string we are not modifying the string instead we are creating a new string with the sliced characters 
+
+**Q**: Why this causes an error ? 
+
+```python
+message = "I will never change"
+message[0]= "X" # This will cause an error 
+```
+
+**Solution**: 
+
+In the above code we try to reassign just the first character .This will cause a `TypeError` because *strings are immutable* .We cannot change individual characters we can only reassign the entire string  
